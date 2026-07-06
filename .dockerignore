@@ -1,0 +1,16 @@
+.git
+.env
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+tests/*.db
+*.zip
+*.pdf
+patla/
+BACKUPS/
+THIRD_PARTY_HANDOFF*/

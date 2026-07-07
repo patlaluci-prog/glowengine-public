@@ -102,6 +102,20 @@ Typical learning flow:
 generate numeric state -> score it -> send human correction -> update model stats
 ```
 
+## Static API Demo
+
+The static demo below shows a complete local Swagger proof for the public
+GlowEngine release:
+
+- the engine starts and initializes its SQLite database,
+- `GET /chaos/generate` returns `200 OK` with a six-value numeric vector,
+- an unauthenticated `POST /chaos/train` returns `403 Forbidden`, confirming API
+  key protection,
+- an authorized `POST /chaos/train` returns `200 OK`,
+- the response confirms `Vote processed and model updated`.
+
+![GlowEngine static API demo](docs/glowengine_static_demo.png)
+
 ## Docker
 
 ```bash

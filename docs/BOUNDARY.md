@@ -1,21 +1,25 @@
-# Public Boundary
+# Public Package Boundaries
 
 GlowEngine Public may contain:
 
 - public scoring logic
-- public synthetic generation
+- bounded numeric state-vector generation
 - public training endpoint
 - API key protection
 - basic rate limiting
 - documentation and examples
+- MIT-licensed public source code
 
 GlowEngine Public must not contain:
 
-- C23 app-only logic
-- C3Cell source
-- BrainReady C3 source
-- C3Brain source
-- private photos
+- app-specific commercial logic
+- private research source code
+- unreleased orchestration logic
+- private photos or test media
 - real `.env` files
 - runtime databases
-- private research notes
+- development backups
+- internal working notes
+
+This boundary keeps the public project useful while separating it from paid,
+private or experimental systems.

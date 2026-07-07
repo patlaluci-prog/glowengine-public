@@ -1,8 +1,7 @@
-Project: GlowEngine Public
-Author / owner: Patla / patlaluci-prog
-Package date: 2026-07-06
+GlowEngine Public
+Author: Patla / patlaluci-prog
+Packaging support: Codex
 
-This is the free public GlowEngine line.
-It does not include C23 app logic, C3Cell, BrainReady C3 or C3Brain.
-
-Codex assisted with packaging, cleanup and documentation.
+This is the free public GlowEngine baseline.
+It does not include commercial app logic, private research source code or
+unreleased orchestration systems.
